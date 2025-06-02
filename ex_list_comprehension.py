@@ -34,6 +34,6 @@ print(acha_tres())
 # Count the number of spaces in a string
 
 def conta_espaco(string):
-    return [string.count(' ') for x in string if ]
+    return [x for x in string].count(' ')
     
 print(conta_espaco(' teste '))
